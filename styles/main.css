@@ -74,6 +74,17 @@ ul li {
   list-style-type: none;
   margin-left: 0;
 }
+table tr:nth-child(odd) {
+  background: AntiqueWhite;
+}
+table tr:hover {
+  background: tan;
+  cursor: pointer;
+}
+table tr:visited {
+  background: tan;
+  cursor: pointer;
+}
 #titles td {
   font-style: italic;
 }
