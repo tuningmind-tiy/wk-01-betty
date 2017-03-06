@@ -74,6 +74,19 @@ ul li {
   list-style-type: none;
   margin-left: 0;
 }
+#titles td {
+  font-style: italic;
+}
+.col1 {
+  text-decoration: underline;
+}
+.col2 {
+  text-align: center;
+}
+.col3 {
+  text-align: center;
+  padding-left: 1em;
+}
 #hours tr td {
   padding: 0 2em 0 0;
 }
