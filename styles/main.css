@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+body {
+  position: relative;
+  font-family: serif;
+  color: #696969;
+}
+a {
+  color: #696969;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+h1, h2 {
+  font-family: "PT Sans Narrow";
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#column1 {
+  margin-left: 95px;
+  margin-top: 40px;
+  width: 15%;
+  height: 900px;
+}
+#column2 {
+  width: 30%;
+  height: 900px;
+}
+#column3 {
+  color: white;
+  width: 10%;
+  height: 900px;
+}
+.logo{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  border-radius: 50%;
+  border: 7px solid tan;
+  margin-left: 10%;;
+  margin-top: -40px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  margin-left: 0;
+}
+footer {
+  position: relative;
+  height: 100%
+}
+.footer {
+  position: fixed;
+  text-align: right;
+  height: 50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-right: 20px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
