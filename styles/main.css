@@ -51,7 +51,7 @@ ul li {
 }
 #main-column {
   width:85vw;
-  margin-top: 6vw;
+  margin-top: 3vw;
   margin-bottom: 10vw;
 }
 .flex-item {
@@ -80,13 +80,21 @@ p:nth-of-type(2) {
 table tr:nth-child(odd) {
   background: AntiqueWhite;
 }
-table tr:hover {
+table#flavors tr:hover {
   background: tan;
   cursor: pointer;
 }
-table tr:visited {
+table#flavors tr:visited {
   background: tan; 
   cursor: pointer;
+}
+table tr td {
+  padding-right: 1em;
+}
+table th {
+  font-style: italic;
+  padding-right: 1em;
+  text-align: left;
 }
 #signoff {
   font-size: .5em;
