@@ -8,7 +8,7 @@
 html {
   height: 100vh;
   width: 100vw;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 main {
   position: relative;
@@ -48,10 +48,31 @@ ul li {
 }
 #main-column {
   width:85vw;
-  margin-top: 20vh;
+  margin-top: 6vw;
+  margin-bottom: 10vw;
+}
+.flex-item {
+  padding-right: 10vw;
 }
 h1, h2 {
   font-family: "Lucida Grande", sans-serif;
+}
+h2 {
+  padding: 1em 0 .9em 0;
+}
+h4 {
+  padding: 1.5em 0 .9em 0;
+  font-style: italic;
+  font-size: .8em;
+}
+#shop {
+  height: 40vw;
+}
+p:first-of-type {
+  padding-bottom: 1em;
+}
+p:nth-of-type(2) {
+  padding-bottom: 1em;
 }
 table tr:nth-child(odd) {
   background: AntiqueWhite;
@@ -63,6 +84,13 @@ table tr:hover {
 table tr:visited {
   background: tan; 
   cursor: pointer;
+}
+#signoff {
+  align-self: center;
+  font-size: .5em;
+  color: white;
+  background: #696969;
+  height: 10vw;
 }
 footer {
   position: fixed;
