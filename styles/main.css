@@ -1,78 +1,57 @@
-html {
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-}
-body {
-  position: relative;
-  font-family: serif;
+* {
   color: #696969;
-}
-a {
-  color: #696969;
-  text-decoration: none;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
 }
-h1, h2 {
-  font-family: "PT Sans Narrow";
-  font-family: "Gill Sans";
-  font-family: "Goudy Bookletter 1911", sans-serif;
-  font-family: "Lucida Grande", sans-serif;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-}
-.logo{
-  height: 60px;
-  width: 60px;
-  position: absolute;
-  border-radius: 50%;
-  border: 8px solid white;
-  margin-left: 10em;
-  margin-top: -40px;
+html {
+  height: 100vh;
+  width: 100vw;
+  font-size: 3vw;
 }
 main {
-  height: 100%;
-  width: 100%;
   position: relative;
+  height: 90vh;
 }
-figure {
-  font-style: italic;
-  margin: 1.7em 0 0 0;
+#banana {
+  height: 25vw;
+  width: 100vw;
 }
-figcaption {
-  padding-bottom: 1.2em;
+#flex-row {
+  display: flex;
+  justify-content: flex-start;
 }
-#column1 {
-  padding: 1%;
-  margin-left: 10em;
-  margin-top: 3em;
-  width: 5%;
-  height: 900px;
+#left-column {
+  margin-left: 15vw;
+  margin-top: -5vw;
+  width: 20vw;
 }
-#column2 {
-  width: 30em;
-  height: 900px;
-  margin-top: 2.1em;
-  margin-left: 6em;
-  margin-bottom: 10em;
+a {
+  text-decoration: none;
+  color: #696969;
+  outline: none;
 }
-#column3 {
-  color: white;
-  width: 10%;
-  height: 900px;
-}
-ul {
-  margin: 0;
-  padding: 0;
+#logo {
+  height: 9vw;
+  width: 9vw;
+  border-radius: 50%;
+  border: 1vw solid white;
+  background: white;
 }
 ul li {
   list-style-type: none;
-  margin-left: 0;
+}
+#nav {
+  margin-left: .5vw;
+  margin-top: 2vw;
+}
+#main-column {
+  width:85vw;
+  margin-top: 20vh;
+}
+h1, h2 {
+  font-family: "Lucida Grande", sans-serif;
 }
 table tr:nth-child(odd) {
   background: AntiqueWhite;
@@ -82,55 +61,18 @@ table tr:hover {
   cursor: pointer;
 }
 table tr:visited {
-  background: tan;
+  background: tan; 
   cursor: pointer;
 }
-#titles td {
-  font-style: italic;
-}
-.col1 {
-  text-decoration: underline;
-}
-.col2 {
-  text-align: center;
-}
-.col3 {
-  text-align: center;
-  padding-left: 1em;
-}
-#hours tr td {
-  padding: 0 2em 0 0;
-}
 footer {
-  position: relative;
-  height: 100%
-}
-.footer {
   position: fixed;
-  text-align: right;
-  height: 50px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin-right: 20px;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-a img {
-  height: 2em;
-  width: 2em;
-  border-radius: 2px;
-}
-.float-left {
-  float: left;
-}
-.float-right {
-  float: right;
-}
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table;
-}
-.cf:after {
-  clear: both;
+footer img {
+  height: 4vh;
 }
 
